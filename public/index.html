@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Pill Remind">
+<meta name="apple-mobile-web-app-title" content="Pill Remind">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<script>
+    // Registering our Service worker
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js', { scope: './' })
+    }
+  </script>
+  <body>
+    <div class="hero">
+      <h1>Pill Reminder</h1>
+      <h2>Take your medicine my friend</h2>
+      <div id="status"></div>
+      <button id="unsubscribe">unsubscribe</button>
+    </div>
+  </body>
