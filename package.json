@@ -1,0 +1,19 @@
+{
+  "name": "vanilla_pwa",
+  "version": "1.0.0",
+  "description": "Pill reminder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacicus75/vanilla_pwa.git"
+  },
+  "author": "Daniel Ardelean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacicus75/vanilla_pwa/issues"
+  },
+  "homepage": "https://github.com/dacicus75/vanilla_pwa#readme"
+}
